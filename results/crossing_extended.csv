@@ -1,0 +1,6 @@
+k,answers,pairs_tested,sampled,crossing,identical,family
+2,55,1485,False,130,0,A
+3,220,5000,True,762,0,A
+4,715,5000,True,902,0,A
+2,136,5000,True,375,72,B
+3,816,5000,True,578,21,B

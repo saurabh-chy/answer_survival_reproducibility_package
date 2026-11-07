@@ -1,0 +1,8 @@
+{
+ "instances": 200,
+ "factors_min": 3,
+ "factors_max": 16,
+ "max_abs_diff": 1.432187701766452e-14,
+ "interpolation_exact": 200,
+ "time_s": 3.3
+}

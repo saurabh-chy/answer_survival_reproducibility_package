@@ -1,0 +1,205 @@
+{
+ "exactness": {
+  "instances": 200,
+  "factors_min": 3,
+  "factors_max": 16,
+  "max_abs_diff": 1.432187701766452e-14,
+  "interpolation_exact": 200,
+  "time_s": 3.3
+ },
+ "table3": [
+  {
+   "components_k": 2,
+   "distinct_answers": 21,
+   "pairs": 210,
+   "crossing_pairs": 11,
+   "share_percent": 5.2
+  },
+  {
+   "components_k": 3,
+   "distinct_answers": 56,
+   "pairs": 1540,
+   "crossing_pairs": 150,
+   "share_percent": 9.7
+  }
+ ],
+ "example_crossing_theta": [
+  0.748
+ ],
+ "tpch_sf001": {
+  "nations": 25,
+  "suppliers_per_nation": [
+   1,
+   8
+  ],
+  "facts_per_nation": [
+   80,
+   640
+  ],
+  "R": 10000,
+  "time_closed_form_s": 0.031,
+  "time_bounds_s": 0.125,
+  "time_monte_carlo_s": 21.77,
+  "time_exact_s": 6.11,
+  "bounds_valid": true,
+  "max_abs_err_monte_carlo": 0.013022133128955282,
+  "max_err_upper": 9.302951665568493e-05,
+  "max_err_lower": 0.020554518825331436,
+  "max_overestimate_ignore_units": 0.2616398684851412,
+  "mean_bracket_width": 0.000996521051981798,
+  "max_bracket_width": 0.02064754834198712
+ },
+ "tpch_sf01": {
+  "nations": 25,
+  "suppliers_per_nation": [
+   28,
+   53
+  ],
+  "facts_per_nation": [
+   2240,
+   4240
+  ],
+  "R": 1000,
+  "time_closed_form_s": 0.259,
+  "time_bounds_s": 1.382,
+  "time_monte_carlo_s": 21.54,
+  "monte_carlo_within_bracket_pm002": 0.9894736842105263,
+  "mean_bracket_width": 0.0012076920844300027,
+  "max_bracket_width": 0.02179413467880842
+ },
+ "q2": {
+  "sf001": {
+   "customers_total": 1000,
+   "customers": 754,
+   "orders_per_customer": [
+    2,
+    26
+   ],
+   "lineitems_per_customer": [
+    7,
+    87
+   ],
+   "shared_units_max": 18,
+   "time_closed_form_s": 0.05,
+   "time_bounds_s": 0.48,
+   "time_exact_s": 125.43,
+   "time_mc_s": 18.61,
+   "mc_customers": 200,
+   "R": 10000,
+   "bounds_valid": true,
+   "max_err_matched_independence": 0.007914057974232502,
+   "mean_err_matched_independence": 0.0008007277495572056,
+   "max_err_lower": 0.13170517354165823,
+   "max_overestimate_units_ignored": 0.5453758417451765,
+   "max_abs_err_mc": 0.014474469420939107,
+   "mean_bracket_width": 0.01610610666440926,
+   "max_bracket_width": 0.1390958325198126
+  },
+  "sf01": {
+   "customers_total": 10000,
+   "customers": 10000,
+   "orders_per_customer": [
+    1,
+    36
+   ],
+   "lineitems_per_customer": [
+    2,
+    155
+   ],
+   "shared_units_max": 16,
+   "time_closed_form_s": 0.64,
+   "time_bounds_s": 6.78,
+   "time_exact_s": 15.27,
+   "time_mc_s": 23.8,
+   "mc_customers": 200,
+   "R": 10000,
+   "bounds_valid": true,
+   "max_err_matched_independence": 0.004458823583191274,
+   "mean_err_matched_independence": 8.388336334378314e-05,
+   "max_err_lower": 0.04460752690869174,
+   "max_overestimate_units_ignored": 0.5807911786778781,
+   "max_abs_err_mc": 0.014260102403588437,
+   "mean_bracket_width": 0.001924639651432882,
+   "max_bracket_width": 0.04587369210379655
+  },
+  "sf1": {
+   "customers_total": 99996,
+   "customers": 99996,
+   "orders_per_customer": [
+    1,
+    41
+   ],
+   "lineitems_per_customer": [
+    1,
+    178
+   ],
+   "shared_units_max": 5,
+   "time_closed_form_s": 6.83,
+   "time_bounds_s": 72.9,
+   "time_exact_s": 111.45,
+   "time_mc_s": 26.01,
+   "mc_customers": 200,
+   "R": 10000,
+   "bounds_valid": true,
+   "max_err_matched_independence": 0.0027728646045943606,
+   "mean_err_matched_independence": 8.384863546739295e-06,
+   "max_err_lower": 0.02296393450641865,
+   "max_overestimate_units_ignored": 0.6094518842089327,
+   "max_abs_err_mc": 0.014739659537155725,
+   "mean_bracket_width": 0.00019297224342728798,
+   "max_bracket_width": 0.024068074904913028
+  }
+ },
+ "crossing_extended": [
+  {
+   "k": 2,
+   "answers": 55,
+   "pairs_tested": 1485,
+   "sampled": false,
+   "crossing": 130,
+   "identical": 0,
+   "family": "A"
+  },
+  {
+   "k": 3,
+   "answers": 220,
+   "pairs_tested": 5000,
+   "sampled": true,
+   "crossing": 762,
+   "identical": 0,
+   "family": "A"
+  },
+  {
+   "k": 4,
+   "answers": 715,
+   "pairs_tested": 5000,
+   "sampled": true,
+   "crossing": 902,
+   "identical": 0,
+   "family": "A"
+  },
+  {
+   "k": 2,
+   "answers": 136,
+   "pairs_tested": 5000,
+   "sampled": true,
+   "crossing": 375,
+   "identical": 72,
+   "family": "B"
+  },
+  {
+   "k": 3,
+   "answers": 816,
+   "pairs_tested": 5000,
+   "sampled": true,
+   "crossing": 578,
+   "identical": 21,
+   "family": "B"
+  }
+ ],
+ "dense": {
+  "bounds_valid": true,
+  "time_s": 1.7
+ },
+ "figure1_crossing_theta": 0.7482442623225811
+}

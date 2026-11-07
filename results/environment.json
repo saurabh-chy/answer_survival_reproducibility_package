@@ -1,0 +1,15 @@
+{
+ "run_date_utc": "2026-11-07T12:43:30",
+ "python": "3.13.18",
+ "platform": "Linux-6.18.44-fc-v310-x86_64-with-glibc2.39",
+ "processor": "x86_64",
+ "cpu_count": 2,
+ "packages": {
+  "duckdb": "2.0.0",
+  "numpy": "2.5.3",
+  "sympy": "1.14.0",
+  "matplotlib": "3.11.2",
+  "tpchgen-cli": "4.0.0"
+ },
+ "cpu_model": "Intel(R) Xeon(R) Processor @ 2.10GHz"
+}
